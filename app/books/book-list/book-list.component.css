@@ -1,0 +1,24 @@
+.book-item {
+  padding: 10px;
+  width: 75%;
+}
+@media screen and (min-width: 576px) {
+  .book-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .book-item {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .book-item {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .book-item {
+    width: 25%;
+  }
+}

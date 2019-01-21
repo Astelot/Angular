@@ -1,0 +1,14 @@
+<div class="card border-0 rounded-0 h-100">
+  <img class="card-img-top" src="https://about.canva.com/wp-content/uploads/sites/3/2015/01/children_bookcover.png" alt="Card image cap" style="width:100%">
+  <div class="card-body p-0 d-flex flex-column">
+    <h5 class="card-title text-center mt-2"> {{ book.getTitle()}}</h5>
+    <p class="card-text text-center"> {{ book.getAuthor() }}</p>
+    <div class="text-center mt-auto">
+      <button type="button" class="btn btn-primary w-75">Prikaži više</button>
+    </div>
+  </div>
+</div>
+<rating [(ngModel)]="rate" [max]="max" [readonly]="isReadonly"></rating>
+<div class="card">
+  <pre class="card-block card-header" style="margin:15px 0;">Rate: <b>{{rate}}</b> </pre>
+</div>
